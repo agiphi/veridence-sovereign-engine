@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you cite this technical research or software architecture, please cite it as below."
+authors:
+  - family-names: "Agi"
+    given-names: "Precious O."
+    affiliation: "Agiphi Inc."
+    orcid: "https://orcid.org/0009-0004-9426-3843"
+title: "Deterministic Algorithmic Technical Due Diligence: Air-Gapped TDD, The Sovereignty Protocol, and 4-Quadrant Infrastructure Risk Quantification"
+version: 2.0.0
+date-released: 2026-08-15
+url: "https://www.veridence.agiphi.com"
+repository-code: "https://github.com/agiphi/veridence-sovereign-engine"
+preferred-citation:
+  type: report
+  authors:
+    - family-names: "Agi"
+      given-names: "Precious O."
+      affiliation: "Agiphi Inc."
+  title: "Deterministic Algorithmic Technical Due Diligence: Air-Gapped TDD, The Sovereignty Protocol, and 4-Quadrant Infrastructure Risk Quantification"
+  institution: "Agiphi Inc."
+  year: 2026
+  month: 8
+  url: "https://www.researchgate.net/publication/404363566_Deterministic_Algorithmic_Technical_Due_Diligence_Air-Gapped_TDD_The_Sovereignty_Protocol_and_4-Quadrant_Infrastructure_Risk_F_Quantification"
