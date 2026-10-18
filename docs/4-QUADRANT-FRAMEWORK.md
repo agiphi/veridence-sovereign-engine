@@ -1,6 +1,6 @@
 # The 4-Quadrant Infrastructure Risk Quantification Framework
 
-Veridence models codebase risk not as abstract "code quality scores" or subjective developer feedback, but as **deterministic, balance sheet purchase price adjustments ($E_{\text{total}}$)**. 
+Veridence models codebase risk not as abstract "code quality scores" or subjective developer feedback, but as **deterministic, balance sheet purchase price adjustments**, denoted as $E_{\text{total}}$. 
 
 During mergers and acquisitions (M&A), unaddressed architectural debt, security vulnerabilities, and licensing infractions translate directly into post-acquisition capital expenditure.
 
@@ -9,7 +9,7 @@ During mergers and acquisitions (M&A), unaddressed architectural debt, security 
 ## Mathematical Formulation
 
 $$
-E_{\text{total}} = Q_1(\text{Architecture}) + Q_2(\text{Security \& License}) + Q_3(\text{Cloud \& IaC}) + Q_4(\text{Team \& Velocity})
+E_{\text{total}} = Q_1(\text{Architecture}) + Q_2(\text{Security and License}) + Q_3(\text{Cloud and IaC}) + Q_4(\text{Team and Velocity})
 $$
 
 ```mermaid
@@ -17,9 +17,9 @@ flowchart TD
     subgraph QuantEngine["4-Quadrant Infrastructure Risk Framework"]
         direction TB
         Q1["<b>Quadrant 1: Architectural Debt</b><br/>• AST Cyclomatic Complexity<br/>• Circular Dependency Graph<br/>• Unmaintainable Modules"]
-        Q2["<b>Quadrant 2: Security & Copyleft</b><br/>• Viral GPL / AGPL Detection<br/>• Hardcoded Secrets & API Keys<br/>• Transitive Dependency CVEs"]
-        Q3["<b>Quadrant 3: Cloud & IaC Enclaves</b><br/>• Terraform / Kubernetes Drift<br/>• Public Storage & Ingress Drift<br/>• Air-Gapped VPC Boundaries"]
-        Q4["<b>Quadrant 4: Team & Keyman Dependency</b><br/>• Git Commit Entropy & Churn<br/>• Bus Factor &lt; 2 Analysis<br/>• Maintainer Concentration"]
+        Q2["<b>Quadrant 2: Security and Copyleft</b><br/>• Viral GPL / AGPL Detection<br/>• Hardcoded Secrets and API Keys<br/>• Transitive Dependency CVEs"]
+        Q3["<b>Quadrant 3: Cloud and IaC Enclaves</b><br/>• Terraform / Kubernetes Drift<br/>• Public Storage and Ingress Drift<br/>• Air-Gapped VPC Boundaries"]
+        Q4["<b>Quadrant 4: Team and Keyman Dependency</b><br/>• Git Commit Entropy and Churn<br/>• Bus Factor &lt; 2 Analysis<br/>• Maintainer Concentration"]
     end
 
     Q1 --> Schedule["<b>Investment Committee Purchase Price Adjustment Schedule</b><br/><i>E_total = Q1 + Q2 + Q3 + Q4</i>"]
@@ -43,7 +43,7 @@ Target codebases often accumulate unrefactored legacy debt that reduces post-mer
   $$
   Q_1 = \sum_{f \in \text{Functions}} \max(0, C(f) - M_{\text{threshold}}) \times H_{\text{refactor}} \times R_{\text{senior}}
   $$
-  *(where $H_{\text{refactor}}$ represents standard refactoring hours per complexity unit, and $R_{\text{senior}} = \$175/\text{hr}$ represents benchmark engineering labor).*
+  *(where $H_{\text{refactor}}$ represents standard refactoring hours per complexity unit, and $R_{\text{senior}} = 175\text{ USD/hr}$ represents benchmark engineering labor).*
 * **Circular Dependency Ring Analysis:** Dependency graphs are parsed to identify circular import chains that prohibit modular extraction or microservice refactoring.
 * **Dead Code Identification:** AST symbol graphs detect unreferenced classes, orphan controllers, and abandoned legacy routes that inflate maintenance overhead.
 

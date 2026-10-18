@@ -54,9 +54,9 @@ Veridence converts subjective engineering surveys into **deterministic balance s
 flowchart TD
     subgraph QuantModel["4-Quadrant Infrastructure Risk Quantification Engine"]
         Q1["<b>Quadrant 1: Architectural Debt</b><br/>• AST Cyclomatic Complexity<br/>• Circular Dependency Graph<br/>• Senior Refactor Dollar Remediation"]
-        Q2["<b>Quadrant 2: Security & Copyleft License</b><br/>• Viral GPL / AGPL Detection<br/>• Proprietary Commercial Contamination<br/>• High-Liability CVEs & Secret Leaks"]
-        Q3["<b>Quadrant 3: Cloud & IaC Infrastructure</b><br/>• Terraform / Kubernetes Misconfigurations<br/>• Public Storage & Ingress Drift<br/>• Air-Gapped VPC Boundary Failures"]
-        Q4["<b>Quadrant 4: Team Velocity & Keyman</b><br/>• Git Commit Entropy & Churn<br/>• Bus Factor &lt; 2 Analysis<br/>• Single-Engineer IP Concentration"]
+        Q2["<b>Quadrant 2: Security and Copyleft License</b><br/>• Viral GPL / AGPL Detection<br/>• Proprietary Commercial Contamination<br/>• High-Liability CVEs and Secret Leaks"]
+        Q3["<b>Quadrant 3: Cloud and IaC Infrastructure</b><br/>• Terraform / Kubernetes Misconfigurations<br/>• Public Storage and Ingress Drift<br/>• Air-Gapped VPC Boundary Failures"]
+        Q4["<b>Quadrant 4: Team Velocity and Keyman</b><br/>• Git Commit Entropy and Churn<br/>• Bus Factor &lt; 2 Analysis<br/>• Single-Engineer IP Concentration"]
     end
 
     Q1 --> Schedule["<b>Investment Committee Purchase Price Adjustment Schedule</b><br/><i>E_total = Q1 + Q2 + Q3 + Q4</i>"]
@@ -72,10 +72,10 @@ flowchart TD
 
 ### Mathematical Formulation
 
-Total recommended EBITDA liability adjustment ($E_{\text{total}}$) is computed as the sum of liabilities quantified across four orthogonal quadrants:
+Total recommended EBITDA liability adjustment, denoted as $E_{\text{total}}$, is computed as the sum of liabilities quantified across four orthogonal quadrants:
 
 $$
-E_{\text{total}} = Q_1(\text{Architecture}) + Q_2(\text{Security \& License}) + Q_3(\text{Cloud \& IaC}) + Q_4(\text{Team \& Velocity})
+E_{\text{total}} = Q_1(\text{Architecture}) + Q_2(\text{Security and License}) + Q_3(\text{Cloud and IaC}) + Q_4(\text{Team and Velocity})
 $$
 
 Where:
@@ -87,15 +87,15 @@ Where:
    Q_1 = \sum_{f \in \text{Functions}} \max(0, C(f) - M_{\text{threshold}}) \times H_{\text{refactor}} \times R_{\text{senior}}
    $$
 
-   *(where $H_{\text{refactor}}$ is benchmark hours per complexity unit, and $R_{\text{senior}} = \$175/\text{hr}$ is benchmark engineering labor).*
+   *(where $H_{\text{refactor}}$ is benchmark hours per complexity unit, and $R_{\text{senior}} = 175\text{ USD/hr}$ is benchmark engineering labor).*
 
-2. **$Q_2$: Copyleft & Security Legal Liability**
+2. **$Q_2$: Copyleft and Security Legal Liability**
    Evaluates direct and transitive dependency trees against the SPDX license index. Viral licenses (GPL-2.0, GPL-3.0, AGPL-3.0) integrated into proprietary commercial software impose a deterministic re-engineering liability ($L_{\text{rewrite}}$) or statutory exposure penalty.
 
-3. **$Q_3$: Cloud & IaC Governance Debt**
+3. **$Q_3$: Cloud and IaC Governance Debt**
    Scans Terraform, CloudFormation, and Helm charts for unencrypted storage, missing IAM boundaries, and multi-cloud architectural fragmentation.
 
-4. **$Q_4$: Team Entropy & Keyman Risk**
+4. **$Q_4$: Team Entropy and Keyman Risk**
    Computes the **Shannon Entropy** of author commits across the target repository:
 
    $$
